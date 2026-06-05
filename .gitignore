@@ -1,0 +1,17 @@
+# Configurações do VS Code
+.vscode/
+
+# Banco de Dados (Evita subir o banco populado)
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários e de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Caso você crie um venv no futuro)
+venv/
+env/
+.env
